@@ -76,3 +76,36 @@ a{
         font-size: 1.16em;
     }
 }
+@media all and (min-width: 321px) and (max-width: 375px){
+    .flex-grow-1{
+        display: flex;
+        align-items: center;
+    }
+    .bodyContainer{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        gap: 50px;
+        text-align: center;
+    }
+    .infoContainer{
+        margin-top: 0px;
+    }
+    .infoContainer h1{
+        font-size: 3.2em;
+    }
+    .svgs{
+        justify-content: center;
+    }
+    .bodyContainer img{
+        height: 250px;
+        width: 250px;
+    }
+    .aboutContainer{
+        margin: auto;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .aboutContainer p{
+        font-size: 1.16em;
+    }
+}
