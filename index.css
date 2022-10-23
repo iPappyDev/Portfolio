@@ -76,7 +76,7 @@ a{
         font-size: 1.16em;
     }
 }
-@media all and (min-width: 321px) and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 425px){
     .flex-grow-1{
         display: flex;
         align-items: center;
