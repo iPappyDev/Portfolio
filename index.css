@@ -83,6 +83,10 @@ a{
     .aboutContainer p{
         font-size: 1em;
     }
+    .card1container{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 @media all and (min-width: 321px) and (max-width: 425px){
     .flex-grow-1{
@@ -115,5 +119,9 @@ a{
     }
     .aboutContainer p{
         font-size: 1.16em;
+    }
+    .card1container{
+        flex-direction: column;
+        gap: 20px;
     }
 }

@@ -3,10 +3,14 @@
     margin: auto;
     width: 90%;
 }
+.card1container{
+    display: flex;
+}
 .portfolioContainer img{
     height: 200px;
     width: 300px;
 }
+
 .overlay{
     color: white;
     position: absolute;
