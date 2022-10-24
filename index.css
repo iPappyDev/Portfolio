@@ -43,14 +43,6 @@ a{
 .aboutContainer p{
     font-size: 1.3em;
 }
-.portfolioContainer{
-    margin: auto;
-    width: 90%;
-}
-.portfolioContainer img{
-    height: 300px;
-    width: 400px;
-}
 @media all and (max-width: 320px){
     .flex-grow-1{
         display: flex;

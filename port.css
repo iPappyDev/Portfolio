@@ -1,0 +1,32 @@
+.portfolioContainer{
+    margin: auto;
+    width: 90%;
+}
+.portfolioContainer img{
+    height: 300px;
+    width: 400px;
+}
+.overlay{
+    position: absolute;
+    margin-top: -300px;
+    height: 327px;
+    width: 400px;
+    background-color: red;
+    opacity: 0;
+    transition: .5s ease;
+    text-align: center;
+    display: block;
+}
+
+#firstImage:hover .overlay {
+    background-color: rgba(255, 5, 5, 50%);
+    opacity: 5;
+}
+#secondImage:hover .overlay{
+    background-color: rgba(255, 5, 5, 50%);
+    opacity: 5;
+}
+#thirdImage:hover .overlay {
+    background-color: rgba(255, 5, 5, 50%);
+    opacity: 5;
+}
