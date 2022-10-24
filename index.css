@@ -29,11 +29,19 @@ a{
 }
 .aboutContainer{
     margin: auto;
-    width: 60%;
-    margin-top: 150px;
+    width: 90%;
+    display: flex;
+    margin-top: 100px;
+}
+.aboutContainer img {
+    height: 550px;
+    width: 450px;
+}
+.aboutContainer div{
+    margin-top: 100px;
 }
 .aboutContainer p{
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .portfolioContainer{
     margin: auto;
@@ -68,12 +76,20 @@ a{
         width: 250px;
     }
     .aboutContainer{
-        margin: auto;
-        width: 90%;
+        /* margin: auto;
+        width: 90%; */
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .aboutContainer img {
+        height: 180px;
+        width: 300px;
+    }
+    .aboutContainer div{
         margin-top: 10px;
     }
     .aboutContainer p{
-        font-size: 1.16em;
+        font-size: 1em;
     }
 }
 @media all and (min-width: 321px) and (max-width: 425px){
