@@ -98,6 +98,16 @@ a{
 .JavaScript {width: 50%; border: 2px solid black;}
 .React {width: 5%; border: 2px solid black;}
 
+
+.contactContainer{
+    text-align: center;
+    border: 1px red solid;
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+}
 @media all and (max-width: 320px){
     .flex-grow-1{
         display: flex;
@@ -153,6 +163,9 @@ a{
         display: flex;
         justify-content: space-around !important;
     }
+    .contactContainer{
+        width: 90%;
+    }
 }
 @media all and (min-width: 321px) and (max-width: 425px){
     .flex-grow-1{
@@ -198,5 +211,8 @@ a{
     .omo{
         display: flex;
         justify-content: space-around !important;
+    }
+    .contactContainer{
+        width: 90%;
     }
 }
