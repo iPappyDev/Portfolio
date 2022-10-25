@@ -79,6 +79,25 @@ a{
     background-color: rgba(13, 2, 2, 0.5);
     opacity: 5;
 }
+#containers{
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+}
+.containers {
+    border: 5px solid #808080;
+    width: 100%;
+    background-color: #ddd;
+}
+.skills p{
+    font-size: 1.5em;
+}
+.html {width: 80%; border: 2px solid black;}
+.CSS {width: 65%; border: 2px solid black;}
+.Bootstrap {width: 60%; border: 2px solid black;}
+.JavaScript {width: 50%; border: 2px solid black;}
+.React {width: 5%; border: 2px solid black;}
+
 @media all and (max-width: 320px){
     .flex-grow-1{
         display: flex;
