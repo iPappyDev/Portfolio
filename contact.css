@@ -1,0 +1,10 @@
+
+.contactContainer{
+    text-align: center;
+    border: 1px red solid;
+    height: 50vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding-top: 50px;
+}
