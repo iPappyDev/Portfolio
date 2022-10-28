@@ -36,17 +36,16 @@ a{
 .aboutContainer{
     margin: auto;
     width: 90%;
-    display: flex;
     padding-top: 100px;
-    color: white;
     font-family: "Roboto Slab";
+    display: flex;
 }
 .aboutContainer img {
     height: 550px;
     width: 450px;
 }
 .aboutContainer div{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .aboutContainer p{
     font-size: 1.3em;
@@ -121,7 +120,7 @@ a{
     height: 50vh;
     width: 50%;
     margin: auto;
-    /* margin-top: 50px; */
+    margin-top: 50px;
     padding-top: 50px;
     font-family: "Roboto Slab";
 }
@@ -170,14 +169,14 @@ a{
         /* margin: auto;
         width: 90%; */
         flex-direction: column;
-        margin-top: 0px;
+        margin-top: -80px;
     }
     .aboutContainer img {
         height: 180px;
         width: 300px;
     }
     .aboutContainer div{
-        margin-top: 10px;
+        margin-top: 40px;
     }
     .aboutContainer p{
         font-size: 1em;
@@ -198,12 +197,12 @@ a{
         justify-content: space-around !important;
     }
     .contactContainer{
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 white;
         width: 100%;
+        margin-top: 150px;
     }
-    .checkerContact{
-        padding-top: 250px;
-    }
-   
 }
 @media all and (min-width: 321px) and (max-width: 425px){
     .indexContainer{
@@ -241,12 +240,20 @@ a{
         width: 250px;
     }
     .aboutContainer{
-        margin: auto;
-        width: 90%;
-        margin-top: 10px;
+        /* margin: auto;
+        width: 90%; */
+        flex-direction: column;
+        margin-top: -80px;
+    }
+    .aboutContainer img {
+        height: 180px;
+        width: 300px;
+    }
+    .aboutContainer div{
+        margin-top: 40px;
     }
     .aboutContainer p{
-        font-size: 1.16em;
+        font-size: 1.15em;
     }
     .portfolioContainer{
         margin: auto;
@@ -262,9 +269,10 @@ a{
         justify-content: space-around !important;
     }
     .contactContainer{
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 white;
         width: 100%;
-    }
-    .checkerContact{
-        padding-top: 250px;
+        margin-top: 150px;
     }
 }
