@@ -1,13 +1,15 @@
 a{
     text-decoration: none;
-    color: black;
 }
-.nav-link{
-    color: black;
+.indexContainer{
+    background-color: black;
+    height: 91.7vh;
+    /* margin-top: -100px; */
 }
 .bodyContainer{
     width: 90%; margin: auto;
-    margin-top: 100px;
+    padding-top: 100px;
+    color: white;
 }
 .infoContainer{
     margin-top: 150px;
@@ -22,16 +24,21 @@ a{
     font-family: serif;
 }
 .bodyContainer img{
-    height: 450px;
+    height: 500px;
     width: 450px;
     border-radius: 50%;
-    border: 5px dotted red;
+    /* border: 5px dotted red; */
+}
+.about1Container{
+    background-color: black;
+    height: 91.7vh;
 }
 .aboutContainer{
     margin: auto;
     width: 90%;
     display: flex;
-    margin-top: 100px;
+    padding-top: 100px;
+    color: white;
     font-family: "Roboto Slab";
 }
 .aboutContainer img {
@@ -47,6 +54,7 @@ a{
 .portfolioContainer{
     margin: auto;
     width: 90%;
+    color: white;
 }
 .card1container{
     display: flex;
@@ -82,40 +90,59 @@ a{
     background-color: rgba(13, 2, 2, 0.5);
     opacity: 5;
 }
+
 #containers{
     width: 90%;
     margin: auto;
     padding-top: 70px;
     font-family: "Roboto Slab";
+    color: white;
 }
 .containers {
-    border: 5px solid #808080;
+    border: 5px solid green;
     width: 100%;
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 .skills p{
     font-size: 1.5em;
 }
-.html {width: 80%; border: 2px solid black;}
-.CSS {width: 65%; border: 2px solid black;}
-.Bootstrap {width: 60%; border: 2px solid black;}
-.JavaScript {width: 50%; border: 2px solid black;}
-.React {width: 5%; border: 2px solid black;}
+.html {width: 80%; border: 2px solid red;}
+.CSS {width: 65%; border: 2px solid red;}
+.Bootstrap {width: 60%; border: 2px solid red;}
+.JavaScript {width: 50%; border: 2px solid red;}
+.React {width: 5%; border: 2px solid red;}
 
 .contactContainer{
     text-align: center;
-    border: 1px red solid;
+    background-color: black;
+    box-shadow: 10px 10px red;
+    border-radius: 40px;
+    color: white;
     height: 50vh;
     width: 50%;
     margin: auto;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 50px;
     font-family: "Roboto Slab";
 }
 .contactContainer p{
     font-size: 1.2em;
 }
+.checkerContact{
+    padding-top: 50px;
+}
 @media all and (max-width: 320px){
+    .indexContainer{
+        margin-top: -100px;
+        height: 100vh;
+    }
+    .about1Container{
+        margin-top: -100px;
+        min-height: 105vh;
+    }
+    #servicesContainer{
+        padding-top: 100px;
+    }
     .flex-grow-1{
         display: flex;
         align-items: center;
@@ -171,10 +198,25 @@ a{
         justify-content: space-around !important;
     }
     .contactContainer{
-        width: 90%;
+        width: 100%;
     }
+    .checkerContact{
+        padding-top: 250px;
+    }
+   
 }
 @media all and (min-width: 321px) and (max-width: 425px){
+    .indexContainer{
+        margin-top: -100px;
+        height: 100vh;
+    }
+    .about1Container{
+        margin-top: -100px;
+        min-height: 105vh;
+    }
+    #servicesContainer{
+        padding-top: 100px;
+    }
     .flex-grow-1{
         display: flex;
         align-items: center;
@@ -220,6 +262,9 @@ a{
         justify-content: space-around !important;
     }
     .contactContainer{
-        width: 90%;
+        width: 100%;
+    }
+    .checkerContact{
+        padding-top: 250px;
     }
 }
