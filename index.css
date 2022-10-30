@@ -203,6 +203,9 @@ a{
         width: 100%;
         margin-top: 150px;
     }
+    .nav-link{
+        color: black !important;
+    }
 }
 @media all and (min-width: 321px) and (max-width: 425px){
     .indexContainer{
@@ -274,5 +277,8 @@ a{
         box-shadow: 0 0 white;
         width: 100%;
         margin-top: 150px;
+    }
+    .nav-link{
+        color: black !important;
     }
 }
